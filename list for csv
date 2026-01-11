@@ -1,0 +1,15 @@
+category_id
+category_title
+category_description
+topup_id
+topup_title
+topup_description
+topup_price_in_pence
+topup_entitlement_type
+topup_entitlement_unit
+topup_entitlement_value
+topup_entitlement_start_date
+topup_entitlement_end_date
+topup_passenger_class_id
+topup_passenger_class_name
+topup_passanger_class_quantity
