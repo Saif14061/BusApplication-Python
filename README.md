@@ -1,55 +1,55 @@
 <h1 align="center">SmartBus Ticketing System</h1>
 <p align="center">
-  A data-driven public transport ticketing platform built in Python
+  A scalable, data-driven public transport ticketing platform implemented in Python
 </p>
 
 <hr>
 
 <h2>Overview</h2>
 <p>
-SmartBus Ticketing is a Python-based ticket management system that simulates a real-world public transport booking platform. 
-It allows customers to browse ticket categories, view detailed ticket information, and purchase tickets, while administrators can manage ticket prices through a secure admin panel.
+SmartBus Ticketing is a modular, data-driven ticket management system designed to simulate a real-world public transport booking platform. 
+The application provides both customer-facing and administrative functionality, enabling efficient ticket browsing, purchasing, and pricing management through a unified CSV-based data layer.
 </p>
 
 <hr>
 
-<h2>Customer Features</h2>
+<h2>Customer Capabilities</h2>
 <ul>
-  <li>Browse ticket categories such as Student, Adult, Network, and Season tickets</li>
-  <li>View ticket details including price, duration, entitlements, and number of passengers</li>
-  <li>Purchase tickets with automatic timestamping</li>
-  <li>View full purchase history</li>
-  <li>Tickets displayed in tabular format using pandas</li>
+  <li>Browse dynamically generated ticket categories derived directly from live CSV data</li>
+  <li>Inspect detailed ticket attributes including price, duration, entitlements, and passenger limits</li>
+  <li>Execute ticket purchases with automatic timestamping and persistent storage</li>
+  <li>Retrieve and analyse historical purchase data</li>
+  <li>Interact with ticket data displayed using structured pandas DataFrames</li>
 </ul>
 
 <hr>
 
-<h2>Admin Features</h2>
+<h2>Administrator Capabilities</h2>
 <ul>
-  <li>Password-protected administrator access</li>
-  <li>View all available tickets</li>
-  <li>Modify ticket prices</li>
-  <li>Save updated ticket data back to the CSV database</li>
-  <li>View ticket data in tabular format</li>
+  <li>Secure, password-protected access to administrative controls</li>
+  <li>View, audit, and manage the full ticket catalogue</li>
+  <li>Dynamically modify ticket pricing in real time</li>
+  <li>Persist updates back to the central CSV data source</li>
+  <li>Visualise ticket data in a tabular format for validation and verification</li>
 </ul>
 
 <hr>
 
 <h2>Data Architecture</h2>
 <p>
-The system uses a CSV file as a data source. Each row in the CSV is read into a dictionary and tickets are grouped into categories using a dictionary-based indexing system. 
-This allows efficient filtering and fast access when users select a category.
+The system utilises a CSV-driven data architecture where each ticket record is mapped into a dictionary-based data model. 
+Ticket records are grouped into categories using a dictionary-of-objects pattern, allowing efficient lookup, filtering, and traversal without repeatedly scanning the entire dataset.
 </p>
 
 <hr>
 
-<h2>Technologies Used</h2>
+<h2>Technology Stack</h2>
 <ul>
-  <li>Python</li>
-  <li>pandas for data analysis and tabular display</li>
-  <li>CSV for file-based data storage</li>
-  <li>Object-Oriented Programming</li>
-  <li>Terminal User Interface</li>
+  <li>Python for application logic</li>
+  <li>pandas for data analysis, transformation, and tabular visualisation</li>
+  <li>CSV for persistent, structured data storage</li>
+  <li>Object-Oriented Programming for encapsulation and modularity</li>
+  <li>Terminal-based user interface with role-based access control</li>
 </ul>
 
 <hr>
@@ -60,7 +60,7 @@ This allows efficient filtering and fast access when users select a category.
 
 <h2>Purpose</h2>
 <p>
-This project was developed as part of a university software development module to demonstrate the use of data structures, object-oriented programming, file handling, and real-world datasets in a working application.
+This project was developed as part of a university software engineering module to demonstrate the practical application of data structures, object-oriented design, file-based persistence, and data analysis in a production-style ticketing system.
 </p>
 
 <hr>
