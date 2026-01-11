@@ -1,4 +1,4 @@
-<h1 align="center">SmartBus Ticketing System</h1>
+<h1 align="center">TicketManager System</h1>
 <p align="center">
   A scalable, data-driven public transport ticketing platform implemented in Python
 </p>
