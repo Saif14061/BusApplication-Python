@@ -34,7 +34,6 @@ The application provides both customer-facing and administrative functionality, 
 </ul>
 
 <hr>
-
 <h2>Data Architecture</h2>
 <p>
 The system utilises a CSV-driven data architecture where each ticket record is mapped into a dictionary-based data model. 
@@ -56,7 +55,7 @@ Ticket records are grouped into categories using a dictionary-of-objects pattern
 
 
 
-<hr>
+
 
 <h2>Purpose</h2>
 <p>
