@@ -1,28 +1,71 @@
-# BusApplication 
-this is a bus application for the local bus company called NCT the ticket managment system which was developed in python allow the user to browser though the ticker purhcse it also allow them to view the ticket which they have purchsed and see how long they last for and how long it is valid for.
-With in the project there is a admin section which can only enter though a password the admin is allowed to modify the csv changing prices and can save the changes which show up on the customer side also, the admin can also view the csv.
-<h1>features</h1>
+<h1 align="center">SmartBus Ticketing System</h1>
+<p align="center">
+  A data-driven public transport ticketing platform built in Python
+</p>
+
+<hr>
+
+<h2>Overview</h2>
+<p>
+SmartBus Ticketing is a Python-based ticket management system that simulates a real-world public transport booking platform. 
+It allows customers to browse ticket categories, view detailed ticket information, and purchase tickets, while administrators can manage ticket prices through a secure admin panel.
+</p>
+
+<hr>
+
+<h2>Customer Features</h2>
 <ul>
-  <li><b>Customer</b></li>  
-  <li>customer can view ticket</li>
-  <li>customer can buy tickets</li>
-  <li>price</li>
-  <li>duration of tickets</li>
-  <li>entitlements for tickets</li>
-  <li>number of users per ticket</li>
-  <li>view purchase history</li>
+  <li>Browse ticket categories such as Student, Adult, Network, and Season tickets</li>
+  <li>View ticket details including price, duration, entitlements, and number of passengers</li>
+  <li>Purchase tickets with automatic timestamping</li>
+  <li>View full purchase history</li>
+  <li>Tickets displayed in tabular format using pandas</li>
 </ul>
+
+<hr>
+
+<h2>Admin Features</h2>
 <ul>
-  <li><b>Admin</b></li>
-  <li>view ticket and other categories</li>
-  <li>modify csv prices and tickets ETC</li>
-  <li>save changed to csv</li>
-  <li>Secure Passcode on the Admin Menu</li>
+  <li>Password-protected administrator access</li>
+  <li>View all available tickets</li>
+  <li>Modify ticket prices</li>
+  <li>Save updated ticket data back to the CSV database</li>
+  <li>View ticket data in tabular format</li>
 </ul>
-<h1>Moduals used</h1>
-<li>pandas used to view the csv and manipulate the .csv</li>
-<li>OS - used to make interface cleanr</li>
-<li>time and date - used to see the time a ticket was purchased</li>
-<li>getpass - used to make password more secure</li>
+
+<hr>
+
+<h2>Data Architecture</h2>
+<p>
+The system uses a CSV file as a data source. Each row in the CSV is read into a dictionary and tickets are grouped into categories using a dictionary-based indexing system. 
+This allows efficient filtering and fast access when users select a category.
+</p>
+
+<hr>
+
+<h2>Technologies Used</h2>
+<ul>
+  <li>Python</li>
+  <li>pandas for data analysis and tabular display</li>
+  <li>CSV for file-based data storage</li>
+  <li>Object-Oriented Programming</li>
+  <li>Terminal User Interface</li>
+</ul>
+
+<hr>
 
 
+
+<hr>
+
+<h2>Purpose</h2>
+<p>
+This project was developed as part of a university software development module to demonstrate the use of data structures, object-oriented programming, file handling, and real-world datasets in a working application.
+</p>
+
+<hr>
+
+<h2>Author</h2>
+<p>
+Developed by Saif.
+</p>
